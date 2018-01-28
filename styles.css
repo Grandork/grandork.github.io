@@ -4,14 +4,13 @@ body {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	color: white;
+	color: red;
 	font-family: 'Roboto', sans-serif;
 }
 
 #header {
 	position: fixed;
-	right: 10;
-	background-color: black;
+	background-color: red;
 	z-index:1
 
 }
@@ -49,22 +48,30 @@ body {
 #main_btn_contact, #main_btn_resume, #main_btn_about{
 
 	background-color:transparent;
-	border:3px solid #ffffff;
+	border:5px solid red;
 	display:inline-block;
 	cursor:pointer;
-	color:#ffffff;
+	color:red;
 	font-weight:bold;
 	text-decoration:none;
 	margin: 10px;
-	padding: 10px;
+	padding: 20px;
 
 }
 
-#main_btn_contact:hover, #main_btn_resume:hover, #main_btn_about:hover{
-
-	background-color:white;
+#main_btn_contact:hover{
+	background-color:red;
 	color:#000;
+}
 
+#main_btn_resume:hover{
+	background-color:yellow;
+	color:#000;
+}
+
+#main_btn_about:hover{
+	background-color:purple;
+	color:#000;
 }
 
 #content a:link, #content a:visited{
