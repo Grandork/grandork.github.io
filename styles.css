@@ -12,7 +12,6 @@ body {
 	position: fixed;
 	background-color: red;
 	z-index:1
-
 }
 
 #header_link:link,
@@ -30,7 +29,7 @@ body {
 #t_center {
 		text-align: center;
     right: 50%;
-    bottom: 50%;
+    bottom: 65%;
     transform: translate(50%,50%);
     position: absolute;
 
